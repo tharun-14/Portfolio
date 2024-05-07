@@ -335,6 +335,10 @@ footer{
     width: 100%;
     padding: 1em;
   }
+    #certificates{
+    width: 100%;
+    padding: 2em;
+  }
 }
 
 @media only screen and (min-width: 769px) {
