@@ -1,0 +1,349 @@
+#theme-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #596AFF;
+    float: right;
+    margin-right: 10px;
+  }
+  #theme-btn:hover {
+    color: #BB86FC;
+  }
+  .changeTheme {
+    background-color: black;
+    color: #eee;
+  }
+  .button {
+    text-decoration: none;
+    font-family: roboto;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    size: 50px;
+    color: black;
+    background-color: skyblue;
+  }
+    @media (prefers-color-scheme: dark) {
+.button {
+      background-color: #eee;
+      color: black;
+    }
+  }
+  .glow-button:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: skyblue;
+  }
+ .heading{
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+ }
+#home-tag{
+  font-size: 30px;
+  text-align: center;
+  color: rgb(49, 198, 236);
+}
+#home img{
+  width: 150px;
+}
+.profile-details-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.des{
+  font-size: 21px;
+  padding-top: 10px;
+}
+#skills-tag{
+  font-size: 30px;
+  text-align: center;
+  color: rgb(49, 198, 236);
+}
+footer{
+  text-align: center;
+  font-size: 20px;
+}
+ 
+ .proglow-button1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: grey;
+  height: 115px;
+  width: 110px;
+  border-width: 0px;
+  border-radius: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+ }
+ .proglow-button1:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 12px 15px cyan;
+}
+ .java{
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .python{
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .html{
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .css{
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .javascript{
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .c{
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .mysql{
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .linux
+ {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+ }
+ .skillbutton{
+  display: flex;
+  flex-direction: row;
+  margin-left: 225px;
+  margin-right: 200px;
+ }
+ .second-line{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 200px;
+ }
+.third-line{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 200px;
+}
+.telugu{
+  height: 55px;
+  width: 60px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+}
+.tamil{
+  height: 55px;
+  width: 60px;
+  margin-bottom: 9px;
+  border-radius: 100px;
+}
+.kannada{
+  height: 55px;
+  width:60px;
+  margin-bottom:9px ;
+  border-radius: 100px;
+}
+.english{
+  height: 55px;
+  width:60px;
+  margin-bottom:9px ;
+  border-radius: 100px;
+}
+.malayalam{
+  height: 55px;
+  width:60px;
+  margin-bottom:9px ;
+  border-radius: 100px;
+}
+#education-tag{
+  font-size: 30px;
+  text-align: center;
+  color: rgb(49, 198, 236);
+}
+.education-pic{
+  border-radius: 10px;
+  width: 400px;
+}
+.sub-education-container{
+  box-shadow: 0 0 15px cyan;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  transition: transform 0.3s ease;
+  margin-left: 20px;
+}
+.education-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-education-container:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 12px red;
+}
+.education-container{
+  display: flex;
+  flex-direction: row;
+}
+#resume1{
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: cyan;  
+  transition: transform 0.3s ease;
+}
+#resume1:hover{
+  transform: scale(1.1);
+}
+.resumebutton{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.resume-gif{
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+}
+#project-tag{
+  text-align: center;
+  font-size: 30px;
+  color: cyan;
+}
+.sub-project-container{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 15px cyan;
+  width:575px;
+  border-radius: 10px;
+  margin-left: 30px;
+  transition: transform 0.3s ease;
+}
+.sub-project-container:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px red;
+}
+.project-image{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+.project-text{
+  text-align: center;
+  padding: 80px 0;
+}
+.projects-container{
+  display: flex;
+  flex-direction: row;
+}
+#certificates-tag{
+  text-align: center;
+  color: cyan;
+  font-size: 30px;
+}
+.first-line{
+  width: 400px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+}
+.cert1{
+  width: 400px;
+  box-shadow: 0 5px 15px cyan;
+  margin-left: 40px;
+  margin-top: 10px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.cert1:hover{
+  transform: scale(1.1);
+}
+#contact{
+  font-size: 30px;
+  color: cyan;
+  text-align: center;
+}
+.forminput{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 300px;
+  padding-left: 475px;
+  color:chocolate
+}
+.submitbutt{
+  width: 150px;
+  height:50px;
+  border-radius: 10px;
+}
+.submitbutton{
+  text-align: center;
+  margin-top: 20px;
+}
+.logo-whatsapp{
+  font-size: 40px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  #heading {
+    width: 100%;
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    flex-direction: row;
+  }
+  #heading {
+    width: 50%;
+    padding: 2em;
+  }
+}
+
