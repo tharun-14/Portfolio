@@ -145,22 +145,19 @@ footer{
  .skillbutton{
   display: flex;
   flex-direction: row;
-  margin-left: 225px;
-  margin-right: 200px;
+  justify-content: center;
  }
  .second-line{
   display: flex;
   flex-direction: row;
   margin-top: 20px;
-  margin-left: 300px;
-  margin-right: 200px;
+  justify-content: center;
  }
 .third-line{
   display: flex;
   flex-direction: row;
   margin-top: 20px;
-  margin-left: 300px;
-  margin-right: 200px;
+  justify-content: center;
 }
 .telugu{
   height: 55px;
@@ -284,14 +281,12 @@ footer{
   font-size: 30px;
 }
 .first-line{
-  width: 400px;
-  margin-left: 100px;
+  justify-content: center;
   display: flex;
   flex-direction: row;
-  padding-left: 100px;
 }
 .cert1{
-  width: 400px;
+  width: 40%;
   box-shadow: 0 5px 15px cyan;
   margin-left: 40px;
   margin-top: 10px;
@@ -310,9 +305,12 @@ footer{
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  width: 300px;
-  padding-left: 475px;
-  color:chocolate
+  color:chocolate;
+  text-align: left;
+  align-items: center;
+}
+.forminput input{
+  width: 20%;
 }
 .submitbutt{
   width: 150px;
@@ -327,27 +325,3 @@ footer{
   font-size: 40px;
   text-align: center;
 }
-@media only screen and (max-width: 768px) {
-  body {
-    flex-direction: column;
-  }
-  #heading {
-    width: 100%;
-    padding: 1em;
-  }
-    #certificates{
-    width: 100%;
-    padding: 2em;
-  }
-}
-
-@media only screen and (min-width: 769px) {
-  body {
-    flex-direction: row;
-  }
-  #heading {
-    width: 50%;
-    padding: 2em;
-  }
-}
-
